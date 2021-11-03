@@ -37,7 +37,8 @@ const App: () => Node = () => {
 
   return (
     <View style={styles.container}>
-      <Text>Hello World!  codepush update</Text>
+      <Text>Hello World!</Text>
+      
     </View>
   );
 };
@@ -55,7 +56,9 @@ const codePushOptions = {
 
 const styles = StyleSheet.create({
   container : {
-    justifyContent : 'center'
+    flex : 1,
+    justifyContent : 'center',
+    alignItems : 'center'
   }
 });
 
