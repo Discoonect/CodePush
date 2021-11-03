@@ -16,6 +16,7 @@ import {
   Text,
   useColorScheme,
   View,
+  Image
 } from 'react-native';
 
 import {
@@ -38,7 +39,10 @@ const App: () => Node = () => {
   return (
     <View style={styles.container}>
       <Text>Hello World!</Text>
-      
+      <Text>codepush update!</Text>
+      <Image 
+      style={{width:100,height:100,resizeMode:'contain'}}
+      source={require('./assets/pang.png')}/>
     </View>
   );
 };
